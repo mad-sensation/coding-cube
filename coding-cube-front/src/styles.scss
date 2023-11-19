@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  color: #273b5e;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  width: 100px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #4983ea;
+}
+
+input {
+  padding: 10px;
+  border: lightgray 1px solid;
+  border-bottom: 4px solid cornflowerblue;
+  border-radius: 10px;
+  width: 100%;
+  margin-right: 15px;
+}
+
+textarea{
+  padding: 10px;
+  min-height: 100px;
+  border: lightgray 1px solid;
+  border-bottom: 4px solid cornflowerblue;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}

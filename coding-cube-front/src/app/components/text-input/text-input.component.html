@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <h2>Text to encode/decode:</h2>
+
+  <form class="text-input-area">
+    <textarea name="text" #text></textarea>
+    <div class="buttons">
+      <button (click)="encode(text)" class="btn">Encode</button>
+      <button (click)="decode(text)" class="btn">Decode</button>
+    </div>
+  </form>
+
+  <div class="result-area" *ngIf="isEncoded">
+    <h2>Result:</h2>
+    <textarea name="result" readonly>{{result}}</textarea>
+  </div>
+</div>

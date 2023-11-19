@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'coding-cube-front';
+  isInitialized = false;
+
+  init(value: boolean): void {
+    this.isInitialized = value;
+  }
 }

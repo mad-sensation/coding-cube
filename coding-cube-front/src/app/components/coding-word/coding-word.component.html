@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <form>
+    <input type="text" placeholder="Your coding word" #coding_word>
+    <button (click)="initializeCodingWord(coding_word)" class="btn">Add</button>
+  </form>
+
+  <div class="coding-word" *ngIf="codingWordInitialized">
+    <span>
+      Current coding word: <b>{{codingWord.toUpperCase()}}</b>
+    </span>
+  </div>
+</div>

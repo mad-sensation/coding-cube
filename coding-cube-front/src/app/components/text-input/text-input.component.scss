@@ -1,0 +1,17 @@
+.text-input-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-area {
+  width: 100%;
+}
+
+button {
+  margin-right: 15px;
+}
+
+textarea {
+  min-width: 95%;
+  max-width: 95%;
+}

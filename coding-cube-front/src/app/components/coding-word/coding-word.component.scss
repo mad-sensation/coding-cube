@@ -1,0 +1,17 @@
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.coding-word {
+  width: 99%;
+  height: 100px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid cornflowerblue;
+  background-color: #d0e1fd;
+  border-radius: 10px;
+}
